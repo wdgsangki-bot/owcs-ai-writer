@@ -445,7 +445,7 @@ if mode == "DAY 대본 생성":
     st.divider()
 
     if st.button("전체 DAY 대본 생성", type="primary"):
-    script = generate_day_script(
+        script = generate_day_script(
         language=language,
         event_name=event_name,
         day_label=day_label,
