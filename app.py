@@ -3,6 +3,7 @@ import streamlit as st
 
 from owcs_briefing_writer import write_briefing
 from owcs_day_script_writer import generate_day_script
+from owcs_standings import get_standings
 
 
 def load_json(path):
@@ -158,64 +159,22 @@ if mode == "DAY 대본 생성":
 
     st.divider()
 
-    st.subheader("스탠딩")
+    st.subheader("스탠딩 자동 계산")
 
-    standings = []
+    tournament_filter = st.text_input(
+        "스탠딩 기준 대회",
+        "2026_KR_STAGE2",
+    )
 
-    for i in range(1, 10):
-        c1, c2, c3, c4, c5 = st.columns([1, 4, 1, 1, 2])
+    standings = get_standings(tournament_filter)
 
-        with c1:
-            rank = st.number_input(
-                f"순위 {i}",
-                min_value=1,
-                max_value=20,
-                value=i,
-                key=f"rank_{i}",
+    if standings:
+        for s in standings:
+            st.write(
+                f"{s['rank']}위 {s['team']} {s['w']}승 {s['l']}패 {s['diff']}"
             )
-
-        with c2:
-            team = st.selectbox(
-                f"팀 {i}",
-                team_names,
-                index=min(i - 1, len(team_names) - 1),
-                key=f"standing_team_{i}",
-            )
-
-        with c3:
-            w = st.number_input(
-                f"W {i}",
-                min_value=0,
-                max_value=20,
-                value=0,
-                key=f"standing_w_{i}",
-            )
-
-        with c4:
-            l = st.number_input(
-                f"L {i}",
-                min_value=0,
-                max_value=20,
-                value=0,
-                key=f"standing_l_{i}",
-            )
-
-        with c5:
-            diff = st.text_input(
-                f"+/- {i}",
-                "0",
-                key=f"standing_diff_{i}",
-            )
-
-        standings.append(
-            {
-                "rank": rank,
-                "team": team,
-                "w": w,
-                "l": l,
-                "diff": diff,
-            }
-        )
+    else:
+        st.warning("해당 대회 기준 스탠딩 데이터가 없습니다.")
 
     st.divider()
 
