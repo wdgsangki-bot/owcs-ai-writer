@@ -11,7 +11,7 @@ from owcs_standings import get_standings
 
 SHEET_ID = "1H_05K75EinAgt1HmLQ3-in3R6N0wAI3vNfFITp1zDcA"
 
-SCHEDULE_GID = "432962424"
+SCHEDULE_GID = "1213279406"
 ROSTER_GID = "1750053340"
 
 
