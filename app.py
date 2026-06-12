@@ -445,37 +445,33 @@ if mode == "DAY 대본 생성":
     st.divider()
 
     if st.button("전체 DAY 대본 생성", type="primary"):
-        script = generate_day_script(
-            language=language,
-            event_name=event_name,
-            day_label=day_label,
-            date_text=date_text,
-            start_time=start_time,
-            caster=caster,
-            analyst=analyst,
-            previous_results=previous_results,
-            standings=standings,
-            today_matches=today_matches,
-            next_matches=next_matches,
-        )
+    script = generate_day_script(
+        language=language,
+        event_name=event_name,
+        day_label=day_label,
+        date_text=date_text,
+        start_time=start_time,
+        caster=caster,
+        analyst=analyst,
+        previous_results=previous_results,
+        standings=standings,
+        today_matches=today_matches,
+        next_matches=next_matches,
+        rosters=rosters,
+    )
 
-        if rosters:
-            script += "\n\n========================\n당일 로스터\n========================\n"
-            for team, roster in rosters.items():
-                script += f"\n[{team}]\n{roster}\n"
+    st.text_area(
+        "전체 DAY 대본",
+        script,
+        height=1000,
+    )
 
-        st.text_area(
-            "전체 DAY 대본",
-            script,
-            height=1000,
-        )
-
-        st.download_button(
-            "TXT 다운로드",
-            data=script,
-            file_name=f"{event_name}_{day_label}_{language}_script.txt",
-            mime="text/plain",
-        )
+    st.download_button(
+        "TXT 다운로드",
+        data=script,
+        file_name=f"{event_name}_{day_label}_{language}_script.txt",
+        mime="text/plain",
+    )
 
 
 if mode == "브리프 생성":
