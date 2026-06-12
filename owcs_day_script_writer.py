@@ -24,6 +24,7 @@ def get_labels(language):
             "potm": "# POTM",
             "interview": "#インタビュー進行",
             "break": "#休憩",
+            "match_end": "—-----------------------------------------------試合終了—--------------------------------------------------",
         }
 
     return {
@@ -50,7 +51,20 @@ def get_labels(language):
         "potm": "# POTM",
         "interview": "# 인터뷰 진행",
         "break": "# 쉬는 시간",
+        "match_end": "—-----------------------------------------------매치 종료—--------------------------------------------------",
     }
+
+
+def format_roster(team_name, rosters, language):
+    roster_text = rosters.get(team_name, "").strip()
+
+    if not roster_text:
+        if language == "일본어":
+            return ["- ロスター未入力"]
+        return ["- 로스터 미입력"]
+
+    players = [p.strip() for p in roster_text.splitlines() if p.strip()]
+    return [f"- {p}" for p in players]
 
 
 def generate_opening(language, event_name, day_label, caster, analyst):
@@ -74,17 +88,17 @@ def generate_opening(language, event_name, day_label, caster, analyst):
     return lines
 
 
-def generate_previous_comment(language, caster, previous_results):
-    lines = []
-
+def generate_previous_comment(language, caster):
     if language == "일본어":
-        lines.append(f"{caster}/ まずは前回の試合結果から確認していきましょう。")
-        lines.append("各チームの序盤の流れと順位争いの構図が少しずつ見えてきています。")
-    else:
-        lines.append(f"{caster}/ 먼저 지난 경기 결과부터 확인해 보겠습니다.")
-        lines.append("지난 경기들을 통해 각 팀의 초반 흐름과 순위 싸움의 윤곽이 조금씩 드러나고 있습니다.")
+        return [
+            f"{caster}/ まずは前回の試合結果から確認していきましょう。",
+            "各チームの序盤の流れと順位争いの構図が少しずつ見えてきています。",
+        ]
 
-    return lines
+    return [
+        f"{caster}/ 먼저 지난 경기 결과부터 확인해 보겠습니다.",
+        "지난 경기들을 통해 각 팀의 초반 흐름과 순위 싸움의 윤곽이 조금씩 드러나고 있습니다.",
+    ]
 
 
 def generate_today_matchup_comment(language, caster, today_matches):
@@ -116,11 +130,13 @@ def generate_day_script(
     standings,
     today_matches,
     next_matches,
+    rosters,
 ):
     labels = get_labels(language)
     lines = []
 
     lines.append(f"{event_name} {day_label}")
+
     if language == "일본어":
         lines.append(f"日程 {date_text} {start_time} ~ 出演 {caster}/{analyst}")
     else:
@@ -141,7 +157,7 @@ def generate_day_script(
     lines.append(labels["previous"])
     for r in previous_results:
         lines.append(f"{r['team_a']} {r['score_a']} - {r['score_b']} {r['team_b']}")
-    lines.extend(generate_previous_comment(language, caster, previous_results))
+    lines.extend(generate_previous_comment(language, caster))
     lines.append("")
 
     lines.append(labels["standings"])
@@ -161,39 +177,35 @@ def generate_day_script(
     for i, m in enumerate(today_matches, start=1):
         if language == "일본어":
             lines.append(f">>CG OUT 後 {m['team_a']} 入場")
-            lines.append(f"#[FCG] {m['team_a']} {labels['roster']}")
-            lines.append(f"#M{i} {m['team_a']} {labels['team_point']}")
-            lines.append("TEAM POINT TITLE")
-            lines.append("チームポイント 日本語コピー")
-            lines.append("")
-
-            lines.append(f">>CG OUT 後 {m['team_b']} 入場")
-            lines.append(f"#[FCG] {m['team_b']} {labels['roster']}")
-            lines.append(f"#M{i} {m['team_b']} {labels['team_point']}")
-            lines.append("TEAM POINT TITLE")
-            lines.append("チームポイント 日本語コピー")
         else:
             lines.append(f">>CG OUT 후 {m['team_a']} 입장")
-            lines.append(f"#[FCG] {m['team_a']} {labels['roster']}")
-            lines.append(f"#M{i} {m['team_a']} {labels['team_point']}")
-            lines.append("TEAM POINT TITLE")
-            lines.append("팀 포인트 국문 카피")
-            lines.append("")
 
-            lines.append(f">>CG OUT 후 {m['team_b']} 입장")
-            lines.append(f"#[FCG] {m['team_b']} {labels['roster']}")
-            lines.append(f"#M{i} {m['team_b']} {labels['team_point']}")
-            lines.append("TEAM POINT TITLE")
-            lines.append("팀 포인트 국문 카피")
-
+        lines.append(f"#[FCG] {m['team_a']} {labels['roster']}")
+        lines.extend(format_roster(m["team_a"], rosters, language))
+        lines.append(f"#M{i} {m['team_a']} {labels['team_point']}")
+        lines.append("TEAM POINT TITLE")
+        lines.append("チームポイント 日本語コピー" if language == "일본어" else "팀 포인트 국문 카피")
         lines.append("")
+
+        if language == "일본어":
+            lines.append(f">>CG OUT 後 {m['team_b']} 入場")
+        else:
+            lines.append(f">>CG OUT 후 {m['team_b']} 입장")
+
+        lines.append(f"#[FCG] {m['team_b']} {labels['roster']}")
+        lines.extend(format_roster(m["team_b"], rosters, language))
+        lines.append(f"#M{i} {m['team_b']} {labels['team_point']}")
+        lines.append("TEAM POINT TITLE")
+        lines.append("チームポイント 日本語コピー" if language == "일본어" else "팀 포인트 국문 카피")
+        lines.append("")
+
         lines.append(labels["map_open"])
         lines.append(labels["banpick"])
         lines.append(labels["game"])
         lines.append(labels["match_result"])
         lines.append(labels["highlight"])
         lines.append(labels["substitution"])
-        lines.append("—-----------------------------------------------매치 종료—--------------------------------------------------")
+        lines.append(labels["match_end"])
         lines.append(labels["potm"])
         lines.append(labels["interview"])
         lines.append(labels["break"])
