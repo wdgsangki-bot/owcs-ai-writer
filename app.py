@@ -12,7 +12,7 @@ from owcs_standings import get_standings
 SHEET_ID = "1H_05K75EinAgt1HmLQ3-in3R6N0wAI3vNfFITp1zDcA"
 
 SCHEDULE_GID = "1213279406"
-ROSTER_GID = "1750053340"
+ROSTER_GID = "1169614443"
 
 
 def load_json(path, default=None):
@@ -68,6 +68,38 @@ def make_result(team_a, score_a, score_b, team_b):
 
 def prepare_schedule_df(df):
     df = df.copy()
+    df.columns = df.columns.str.strip()
+
+    df = df.rename(columns={
+        "DATE": "date",
+        "Date": "date",
+        "날짜": "date",
+        "DAY": "day",
+        "Day": "day",
+        "DAY_LABEL": "day_label",
+        "Day Label": "day_label",
+        "데이": "day_label",
+        "EVENT_NAME": "event_name",
+        "Event Name": "event_name",
+        "대회명": "event_name",
+        "MATCH_NO": "match_no",
+        "Match No": "match_no",
+        "매치번호": "match_no",
+        "TIME": "time",
+        "Time": "time",
+        "시간": "time",
+        "TEAM_A": "team_a",
+        "Team A": "team_a",
+        "팀A": "team_a",
+        "팀 A": "team_a",
+        "TEAM_B": "team_b",
+        "Team B": "team_b",
+        "팀B": "team_b",
+        "팀 B": "team_b",
+        "TOURNAMENT_FILTER": "tournament_filter",
+        "Tournament Filter": "tournament_filter",
+        "대회필터": "tournament_filter",
+    })
 
     required_columns = [
         "date",
@@ -84,19 +116,59 @@ def prepare_schedule_df(df):
     missing = [col for col in required_columns if col not in df.columns]
     if missing:
         st.error(f"09_DAY_SCHEDULE 시트에 컬럼이 없습니다: {missing}")
+        st.write("현재 인식된 컬럼:", list(df.columns))
         st.stop()
 
-    df["date"] = pd.to_datetime(df["date"]).dt.date
-    df["match_no"] = df["match_no"].astype(int)
+    df = df.dropna(how="all")
+    df["date"] = pd.to_datetime(df["date"], errors="coerce").dt.date
+    df = df.dropna(subset=["date"])
+
+    df["match_no"] = pd.to_numeric(df["match_no"], errors="coerce").fillna(0).astype(int)
+    df["day"] = pd.to_numeric(df["day"], errors="coerce").fillna(0).astype(int)
+
+    df = df.drop_duplicates(
+        subset=["date", "match_no", "team_a", "team_b"],
+        keep="first",
+    )
 
     return df
 
 
 def prepare_roster_df(df):
     df = df.copy()
+    df.columns = df.columns.str.strip()
+
+    df = df.rename(columns={
+        "TEAM": "team",
+        "Team": "team",
+        "팀": "team",
+        "PLAYER1": "player1",
+        "Player1": "player1",
+        "선수1": "player1",
+        "PLAYER2": "player2",
+        "Player2": "player2",
+        "선수2": "player2",
+        "PLAYER3": "player3",
+        "Player3": "player3",
+        "선수3": "player3",
+        "PLAYER4": "player4",
+        "Player4": "player4",
+        "선수4": "player4",
+        "PLAYER5": "player5",
+        "Player5": "player5",
+        "선수5": "player5",
+        "SUB1": "sub1",
+        "Sub1": "sub1",
+        "후보1": "sub1",
+        "SUB2": "sub2",
+        "Sub2": "sub2",
+        "후보2": "sub2",
+        "COACH": "coach",
+        "Coach": "coach",
+        "코치": "coach",
+    })
 
     required_columns = [
-        "date",
         "team",
         "player1",
         "player2",
@@ -110,10 +182,13 @@ def prepare_roster_df(df):
 
     missing = [col for col in required_columns if col not in df.columns]
     if missing:
-        st.warning(f"10_DAILY_ROSTER 시트에 컬럼이 없습니다: {missing}")
+        st.warning(f"로스터 시트에 컬럼이 없습니다: {missing}")
+        st.write("현재 인식된 로스터 컬럼:", list(df.columns))
         return pd.DataFrame()
 
-    df["date"] = pd.to_datetime(df["date"]).dt.date
+    df = df.dropna(how="all")
+    df = df.dropna(subset=["team"])
+
     return df
 
 
@@ -141,14 +216,11 @@ def get_previous_matches(df, selected_date):
     return df[df["date"] == previous_date].sort_values("match_no")
 
 
-def get_roster_text(roster_df, selected_date, team):
+def get_roster_text(roster_df, team):
     if roster_df is None or roster_df.empty:
         return ""
 
-    row = roster_df[
-        (roster_df["date"] == selected_date) &
-        (roster_df["team"] == team)
-    ]
+    row = roster_df[roster_df["team"] == team]
 
     if row.empty:
         return ""
@@ -186,6 +258,7 @@ st.caption("Esports Broadcast Intelligence Platform")
 
 with st.sidebar:
     st.header("WDG DATA")
+
     game = st.selectbox(
         "게임 / 리그",
         ["OWCS", "VCT", "LCK CL", "THE FINALS"],
@@ -201,6 +274,7 @@ with st.sidebar:
         index=0,
     )
 
+
 team_names = get_team_names()
 
 try:
@@ -214,8 +288,10 @@ except Exception as e:
 try:
     roster_df = load_google_sheet(ROSTER_GID)
     roster_df = prepare_roster_df(roster_df)
-except Exception:
+except Exception as e:
     roster_df = pd.DataFrame()
+    st.warning("로스터 시트를 불러오지 못했습니다.")
+    st.exception(e)
 
 
 if mode == "DAY 대본 생성":
@@ -235,9 +311,11 @@ if mode == "DAY 대본 생성":
     if default_date not in schedule_dates:
         default_date = schedule_dates[0]
 
-    selected_date = st.date_input(
+    selected_date = st.selectbox(
         "방송 날짜 선택",
-        value=default_date,
+        schedule_dates,
+        index=schedule_dates.index(default_date),
+        format_func=lambda d: d.strftime("%Y-%m-%d"),
     )
 
     today_df = get_today_matches(schedule_df, selected_date)
@@ -289,7 +367,13 @@ if mode == "DAY 대본 생성":
     previous_results = []
 
     if not previous_df.empty:
-        st.caption("직전 방송일 매치업을 자동 로드했습니다. 점수는 방송 당일 입력하세요.")
+        previous_date = previous_df.iloc[0]["date"]
+        previous_day = previous_df.iloc[0].get("day_label", "")
+
+        st.caption(
+            f"{previous_date.strftime('%Y년 %m월 %d일')} ({previous_day}) "
+            "직전 방송일 매치업을 자동 로드했습니다. 점수는 방송 당일 입력하세요."
+        )
 
         for i, row in previous_df.reset_index(drop=True).iterrows():
             c1, c2, c3, c4 = st.columns([3, 1, 1, 3])
@@ -356,7 +440,12 @@ if mode == "DAY 대본 생성":
         st.warning("해당 대회 기준 스탠딩 데이터가 없습니다.")
 
     st.divider()
-    st.subheader("오늘의 매치업")
+
+    st.subheader(
+        f"오늘의 매치업 | "
+        f"{selected_date.strftime('%Y년 %m월 %d일')} "
+        f"({first_row.get('day_label', '')})"
+    )
 
     today_matches = []
 
@@ -402,7 +491,18 @@ if mode == "DAY 대본 생성":
         )
 
     st.divider()
-    st.subheader("다음 매치업")
+
+    if not next_df.empty:
+        next_date = next_df.iloc[0]["date"]
+        next_day = next_df.iloc[0].get("day_label", "")
+
+        st.subheader(
+            f"다음 매치업 | "
+            f"{next_date.strftime('%Y년 %m월 %d일')} "
+            f"({next_day})"
+        )
+    else:
+        st.subheader("다음 매치업")
 
     next_matches = []
 
@@ -426,14 +526,14 @@ if mode == "DAY 대본 생성":
         st.caption("다음 경기 일정이 없습니다.")
 
     st.divider()
-    st.subheader("당일 로스터")
+    st.subheader("팀 로스터")
 
     rosters = {}
 
     for m in today_matches:
         for team in [m["team_a"], m["team_b"]]:
             if team and team not in rosters:
-                default_roster = get_roster_text(roster_df, selected_date, team)
+                default_roster = get_roster_text(roster_df, team)
 
                 rosters[team] = st.text_area(
                     f"{team} 로스터",
