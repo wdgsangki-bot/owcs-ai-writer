@@ -1,0 +1,2275 @@
+[
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "WAY",
+    "score_a": 3,
+    "score_b": 1,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Havana",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 1,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Esperança",
+        "meter_a": 88.28,
+        "meter_b": 88.29,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 4,
+        "score_b": 3,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "WAY",
+    "score_a": 3,
+    "score_b": 1,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 142.34,
+        "meter_b": 52.17,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Team Falcons",
+    "score_a": 2,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 70.17,
+        "meter_b": 79.41,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 3,
+        "score_b": 4,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Watchpoint: Gibraltar",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "Team Falcons",
+    "team_b": "WAY",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Havana",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "Team Falcons"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ZETA DIVISION",
+    "score_a": 1,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 50.58,
+        "meter_b": 129.81,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "FTG",
+    "team_b": "T1",
+    "score_a": 0,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "King's Row",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "T1"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 0,
+        "score_b": 3,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "Poker Face",
+    "team_b": "NE",
+    "score_a": 1,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "NE"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 130.02,
+        "meter_b": 139.39,
+        "winner": "NE"
+      },
+      {
+        "map": "Blizzard World",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "NE"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 1,
+        "score_b": 0,
+        "winner": "Poker Face"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "FTG",
+    "team_b": "NE",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "FTG"
+      },
+      {
+        "map": "Route 66",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "FTG"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "FTG"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "WAY",
+    "team_b": "T1",
+    "score_a": 4,
+    "score_b": 1,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "New Queen Street",
+        "meter_a": 128.11,
+        "meter_b": 57.18,
+        "winner": "WAY"
+      },
+      {
+        "map": "Numbani",
+        "score_a": 4,
+        "score_b": 3,
+        "winner": "WAY"
+      },
+      {
+        "map": "Havana",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "WAY"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "WAY"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "WAY",
+    "score_a": 4,
+    "score_b": 2,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "New Queen Street",
+        "meter_a": 12.22,
+        "meter_b": 124.14,
+        "winner": "WAY"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Havana",
+        "score_a": 1,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 1,
+        "score_b": 3,
+        "winner": "WAY"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "FTG",
+    "score_a": 4,
+    "score_b": 0,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 135.83,
+        "meter_b": 37.6,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Blizzard World",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Havana",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "Team Falcons",
+    "team_b": "Crazy Raccoon",
+    "score_a": 0,
+    "score_b": 4,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Esperança",
+        "meter_a": 1.31,
+        "meter_b": 142.41,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 0,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Havana",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Crazy Raccoon",
+    "score_a": 2,
+    "score_b": 4,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 92.7,
+        "meter_b": 71.82,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Havana",
+        "score_a": 5,
+        "score_b": 4,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 0,
+        "score_b": 3,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_1/Korea",
+    "team_a": "TBK",
+    "team_b": "TWT",
+    "score_a": 2,
+    "score_b": 1,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Nepal",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "TBK"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 112.45,
+        "meter_b": 86.24,
+        "winner": "TBK"
+      },
+      {
+        "map": "Junkertown",
+        "score_a": 4,
+        "score_b": 5,
+        "winner": "TWT"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ZETA DIVISION",
+    "score_a": 2,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 29.71,
+        "meter_b": 137.86,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Hollywood",
+        "score_a": 5,
+        "score_b": 4,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Circuit Royal",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 0,
+        "score_b": 3,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "AGG",
+    "team_b": "T1",
+    "score_a": 1,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "AGG"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 12.21,
+        "meter_b": 124.82,
+        "winner": "T1"
+      },
+      {
+        "map": "Circuit Royal",
+        "score_a": 0,
+        "score_b": 1,
+        "winner": "T1"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "AGG",
+    "team_b": "ZETA DIVISION",
+    "score_a": 3,
+    "score_b": 2,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 123.2,
+        "meter_b": 97.99,
+        "winner": "AGG"
+      },
+      {
+        "map": "Hollywood",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "AGG"
+      },
+      {
+        "map": "Circuit Royal",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "AGG"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "T1",
+    "score_a": 1,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "T1"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 55.53,
+        "meter_b": 93.91,
+        "winner": "T1"
+      },
+      {
+        "map": "Circuit Royal",
+        "score_a": 0,
+        "score_b": 1,
+        "winner": "T1"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "T1",
+    "team_b": "ZETA DIVISION",
+    "score_a": 3,
+    "score_b": 1,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "T1"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 99.67,
+        "meter_b": 34.87,
+        "winner": "T1"
+      },
+      {
+        "map": "Watchpoint: Gibraltar",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "T1"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 0,
+        "score_b": 3,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "AGG",
+    "score_a": 0,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "AGG"
+      },
+      {
+        "map": "Circuit Royal",
+        "score_a": 4,
+        "score_b": 5,
+        "winner": "AGG"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "AGG"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "Team Falcons",
+    "team_b": "OCN",
+    "score_a": 3,
+    "score_b": 1,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 141.66,
+        "meter_b": 44.85,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Midtown",
+        "score_a": 0,
+        "score_b": 1,
+        "winner": "OCN"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "Team Falcons"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "Poker Face",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 1,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "ONSIDE GAMING"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 118.94,
+        "meter_b": 122.75,
+        "winner": "ONSIDE GAMING"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 4,
+        "score_b": 3,
+        "winner": "Poker Face"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 0,
+        "score_b": 3,
+        "winner": "ONSIDE GAMING"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "OCN",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 1,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "ONSIDE GAMING"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 103.23,
+        "meter_b": 141.07,
+        "winner": "ONSIDE GAMING"
+      },
+      {
+        "map": "Circuit Royal",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "OCN"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 0,
+        "score_b": 3,
+        "winner": "ONSIDE GAMING"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 4,
+    "score_b": 0,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 134.17,
+        "meter_b": 46.53,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Hollywood",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "T1",
+    "team_b": "ZETA DIVISION",
+    "score_a": 4,
+    "score_b": 0,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "T1"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 126.79,
+        "meter_b": 43.26,
+        "winner": "T1"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Team Falcons",
+    "score_a": 4,
+    "score_b": 2,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Colosseo",
+        "meter_a": 122.16,
+        "meter_b": 34.36,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Watchpoint: Gibraltar",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Circuit Royal",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "AGG",
+    "team_b": "Crazy Raccoon",
+    "score_a": 0,
+    "score_b": 4,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Nepal",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Midtown",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Circuit Royal",
+        "score_a": 3,
+        "score_b": 4,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "T1",
+    "team_b": "Crazy Raccoon",
+    "score_a": 2,
+    "score_b": 4,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 116.18,
+        "meter_b": 99.28,
+        "winner": "T1"
+      },
+      {
+        "map": "Midtown",
+        "score_a": 1,
+        "score_b": 3,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Circuit Royal",
+        "score_a": 1,
+        "score_b": 3,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_2/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "AGG",
+    "score_a": 1,
+    "score_b": 4,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Nepal",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "AGG"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 87.7,
+        "meter_b": 125.79,
+        "winner": "AGG"
+      },
+      {
+        "map": "Hollywood",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "AGG"
+      },
+      {
+        "map": "Circuit Royal",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "AGG"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_3/Korea",
+    "team_a": "WAE",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 0,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "ONSIDE GAMING"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 3,
+        "score_b": 4,
+        "winner": "ONSIDE GAMING"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "ONSIDE GAMING"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_3/Korea",
+    "team_a": "OCN",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 1,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "OCN"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 3,
+        "score_b": 4,
+        "winner": "Cheeseburger"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 4,
+        "score_b": 3,
+        "winner": "OCN"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "OCN"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_3/Korea",
+    "team_a": "WAE",
+    "team_b": "OCN",
+    "score_a": 3,
+    "score_b": 2,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "WAE"
+      },
+      {
+        "map": "New Queen Street",
+        "meter_a": 62.87,
+        "meter_b": 66.61,
+        "winner": "OCN"
+      },
+      {
+        "map": "Eichenwalde",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "OCN"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 1,
+        "score_b": 0,
+        "winner": "WAE"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "WAE"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_3/Korea",
+    "team_a": "Team Falcons",
+    "team_b": "WAE",
+    "score_a": 2,
+    "score_b": 4,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Esperança",
+        "meter_a": 129.89,
+        "meter_b": 134.65,
+        "winner": "WAE"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 0,
+        "score_b": 1,
+        "winner": "WAE"
+      },
+      {
+        "map": "Hollywood",
+        "score_a": 3,
+        "score_b": 4,
+        "winner": "WAE"
+      },
+      {
+        "map": "Watchpoint: Gibraltar",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "WAE"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_3/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "WAE",
+    "score_a": 4,
+    "score_b": 2,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 111.5,
+        "meter_b": 111.49,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "WAE"
+      },
+      {
+        "map": "Junkertown",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "WAE"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Aatlis",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_3/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 4,
+    "score_b": 1,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "New Queen Street",
+        "meter_a": 128.11,
+        "meter_b": 35.2,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 5,
+        "score_b": 4,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 1,
+        "score_b": 3,
+        "winner": "ONSIDE GAMING"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_3/Korea",
+    "team_a": "T1",
+    "team_b": "ZETA DIVISION",
+    "score_a": 4,
+    "score_b": 0,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "T1"
+      },
+      {
+        "map": "New Queen Street",
+        "meter_a": 128.11,
+        "meter_b": 0.0,
+        "winner": "T1"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "T1"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_3/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "T1",
+    "score_a": 4,
+    "score_b": 1,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 34.22,
+        "meter_b": 100.37,
+        "winner": "T1"
+      },
+      {
+        "map": "Eichenwalde",
+        "score_a": 4,
+        "score_b": 3,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2025/Asia/Stage_3/Korea",
+    "team_a": "WAE",
+    "team_b": "ZETA DIVISION",
+    "score_a": 4,
+    "score_b": 0,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "WAE"
+      },
+      {
+        "map": "New Queen Street",
+        "meter_a": 126.67,
+        "meter_b": 0.0,
+        "winner": "WAE"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "WAE"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "WAE"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 1,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 123.27,
+        "meter_b": 126.21,
+        "winner": "ONSIDE GAMING"
+      },
+      {
+        "map": "Blizzard World",
+        "score_a": 4,
+        "score_b": 3,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Havana",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 130.76,
+        "meter_b": 58.99,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Blizzard World",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 1,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 144.86,
+        "meter_b": 54.85,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Numbani",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Watchpoint: Gibraltar",
+        "score_a": 4,
+        "score_b": 3,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 138.21,
+        "meter_b": 105.66,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Blizzard World",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Crazy Raccoon",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Havana",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "Team Falcons",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 127.71,
+        "meter_b": 18.61,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Blizzard World",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "Team Falcons"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "T1",
+    "team_b": "ZAN Esports",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "T1"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 141.97,
+        "meter_b": 8.36,
+        "winner": "T1"
+      },
+      {
+        "map": "Havana",
+        "score_a": 1,
+        "score_b": 0,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "Poker Face",
+    "team_b": "Cheeseburger",
+    "score_a": 2,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Busan",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "Cheeseburger"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 39.88,
+        "meter_b": 107.73,
+        "winner": "Cheeseburger"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 142.41,
+        "meter_b": 0.0,
+        "winner": "Poker Face"
+      },
+      {
+        "map": "Numbani",
+        "score_a": 4,
+        "score_b": 6,
+        "winner": "Cheeseburger"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "Poker Face"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "ZAN Esports",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "ZAN Esports"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 62.88,
+        "meter_b": 62.87,
+        "winner": "ZAN Esports"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 1,
+        "score_b": 0,
+        "winner": "ZAN Esports"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "ONSIDE GAMING",
+    "team_b": "T1",
+    "score_a": 0,
+    "score_b": 4,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "T1"
+      },
+      {
+        "map": "Esperança",
+        "meter_a": 60.62,
+        "meter_b": 129.09,
+        "winner": "T1"
+      },
+      {
+        "map": "Numbani",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "T1"
+      },
+      {
+        "map": "Havana",
+        "score_a": 3,
+        "score_b": 4,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "T1",
+    "score_a": 4,
+    "score_b": 2,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 89.65,
+        "meter_b": 124.46,
+        "winner": "T1"
+      },
+      {
+        "map": "Blizzard World",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Numbani",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Watchpoint: Gibraltar",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Aatlis",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "Team Falcons",
+    "team_b": "ZAN Esports",
+    "score_a": 4,
+    "score_b": 0,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 140.04,
+        "meter_b": 53.18,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Blizzard World",
+        "score_a": 1,
+        "score_b": 0,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Havana",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "Team Falcons"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Team Falcons",
+    "score_a": 1,
+    "score_b": 4,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Blizzard World",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Havana",
+        "score_a": 1,
+        "score_b": 3,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Watchpoint: Gibraltar",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 1,
+        "score_b": 3,
+        "winner": "Team Falcons"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Team Falcons",
+    "score_a": 4,
+    "score_b": 1,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Lijiang Tower",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Esperança",
+        "score_a": 41,
+        "score_b": 53,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Blizzard World",
+        "score_a": 4,
+        "score_b": 3,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 4,
+        "score_b": 3,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Watchpoint: Gibraltar",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "Team Falcons"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_1/Korea",
+    "team_a": "T1",
+    "team_b": "Crazy Raccoon",
+    "score_a": 1,
+    "score_b": 4,
+    "format": "FT4",
+    "maps": [
+      {
+        "map": "Busan",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 36.26,
+        "meter_b": 144.86,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Numbani",
+        "score_a": 3,
+        "score_b": 4,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Havana",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Aatlis",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "O2B",
+    "team_b": "ZSG",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "O2B"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 125.66,
+        "meter_b": 72.02,
+        "winner": "O2B"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "O2B"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "Team Falcons",
+    "team_b": "Crazy Raccoon",
+    "score_a": 0,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "New Queen Street",
+        "meter_a": 105.91,
+        "meter_b": 106.08,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "T1",
+    "team_b": "ZETA DIVISION",
+    "score_a": 3,
+    "score_b": 2,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Runasapi",
+        "meter_a": 73.6,
+        "meter_b": 57.99,
+        "winner": "T1"
+      },
+      {
+        "map": "King's Row",
+        "score_a": 3,
+        "score_b": 4,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "Poker Face",
+    "team_b": "Cheeseburger",
+    "score_a": 0,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Runasapi",
+        "meter_a": 0.0,
+        "meter_b": 144.86,
+        "winner": "Cheeseburger"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 2,
+        "score_b": 3,
+        "winner": "Cheeseburger"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "T1",
+    "team_b": "SBAD",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "T1"
+      },
+      {
+        "map": "Numbani",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "T1"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "ZSG",
+    "team_b": "Team Falcons",
+    "score_a": 0,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 77.47,
+        "meter_b": 130.65,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 1,
+        "score_b": 3,
+        "winner": "Team Falcons"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "SBAD",
+    "team_b": "O2B",
+    "score_a": 0,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "O2B"
+      },
+      {
+        "map": "Hollywood",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "O2B"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "O2B"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 144.86,
+        "meter_b": 46.1,
+        "winner": "ZETA DIVISION"
+      },
+      {
+        "map": "Dorado",
+        "score_a": 2,
+        "score_b": 1,
+        "winner": "ZETA DIVISION"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 141.66,
+        "meter_b": 55.53,
+        "winner": "Crazy Raccoon"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "Crazy Raccoon"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "O2 Blast",
+    "team_b": "ZANSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Ilios",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "O2 Blast"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 125.66,
+        "meter_b": 72.02,
+        "winner": "O2 Blast"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 3,
+        "score_b": 2,
+        "winner": "O2 Blast"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "T1",
+    "team_b": "SuperBad",
+    "score_a": 3,
+    "score_b": 0,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 2,
+        "score_b": 0,
+        "winner": "T1"
+      },
+      {
+        "map": "Numbani",
+        "score_a": 3,
+        "score_b": 1,
+        "winner": "T1"
+      },
+      {
+        "map": "New Junk City",
+        "score_a": 3,
+        "score_b": 0,
+        "winner": "T1"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "ZANSIDE GAMING",
+    "team_b": "Team Falcons",
+    "score_a": 0,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Runasapi",
+        "meter_a": 77.47,
+        "meter_b": 130.65,
+        "winner": "Team Falcons"
+      },
+      {
+        "map": "Suravasa",
+        "score_a": 1,
+        "score_b": 3,
+        "winner": "Team Falcons"
+      }
+    ]
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "source_url": "https://liquipedia.net/overwatch/Overwatch_Champions_Series/2026/Asia/Stage_2/Korea/Regular_Season",
+    "team_a": "SuperBad",
+    "team_b": "O2 Blast",
+    "score_a": 0,
+    "score_b": 3,
+    "format": "FT3",
+    "maps": [
+      {
+        "map": "Oasis",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "O2 Blast"
+      },
+      {
+        "map": "Hollywood",
+        "score_a": 1,
+        "score_b": 2,
+        "winner": "O2 Blast"
+      },
+      {
+        "map": "Rialto",
+        "score_a": 0,
+        "score_b": 2,
+        "winner": "O2 Blast"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1552 @@
+[
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 02",
+    "team_a": "Team Falcons",
+    "team_b": "ZETA DIVISION",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 16",
+    "team_a": "Team Falcons",
+    "team_b": "Crazy Raccoon",
+    "score_a": 2,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 25",
+    "team_a": "Team Falcons",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 31",
+    "team_a": "Team Falcons",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 14",
+    "team_a": "Team Falcons",
+    "team_b": "WAY",
+    "score_a": 1,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 07",
+    "team_a": "Team Falcons",
+    "team_b": "From The Gamer",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 24",
+    "team_a": "Team Falcons",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 09",
+    "team_a": "Team Falcons",
+    "team_b": "T1",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 24",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Crazy Raccoon",
+    "score_a": 1,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 09",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 16",
+    "team_a": "ZETA DIVISION",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 08",
+    "team_a": "ZETA DIVISION",
+    "team_b": "WAY",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 31",
+    "team_a": "ZETA DIVISION",
+    "team_b": "From The Gamer",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 15",
+    "team_a": "ZETA DIVISION",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 26",
+    "team_a": "ZETA DIVISION",
+    "team_b": "T1",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 14",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 02",
+    "team_a": "Crazy Raccoon",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 01",
+    "team_a": "Crazy Raccoon",
+    "team_b": "WAY",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 25",
+    "team_a": "Crazy Raccoon",
+    "team_b": "From The Gamer",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 08",
+    "team_a": "Crazy Raccoon",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 07",
+    "team_a": "Crazy Raccoon",
+    "team_b": "T1",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 08",
+    "team_a": "Poker Face",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 24",
+    "team_a": "Poker Face",
+    "team_b": "WAY",
+    "score_a": 0,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 01",
+    "team_a": "Poker Face",
+    "team_b": "From The Gamer",
+    "score_a": 1,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 16",
+    "team_a": "Poker Face",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 31",
+    "team_a": "Poker Face",
+    "team_b": "T1",
+    "score_a": 1,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 26",
+    "team_a": "VEC",
+    "team_b": "WAY",
+    "score_a": 0,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 15",
+    "team_a": "VEC",
+    "team_b": "From The Gamer",
+    "score_a": 0,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 07",
+    "team_a": "VEC",
+    "team_b": "New Era",
+    "score_a": 1,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 25",
+    "team_a": "VEC",
+    "team_b": "T1",
+    "score_a": 0,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 09",
+    "team_a": "WAY",
+    "team_b": "From The Gamer",
+    "score_a": 0,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 02",
+    "team_a": "WAY",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 15",
+    "team_a": "WAY",
+    "team_b": "T1",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Jan 26",
+    "team_a": "From The Gamer",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 14",
+    "team_a": "From The Gamer",
+    "team_b": "T1",
+    "score_a": 1,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE1",
+    "date": "Feb 01",
+    "team_a": "New Era",
+    "team_b": "T1",
+    "score_a": 0,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 25",
+    "team_a": "Crazy Raccoon",
+    "team_b": "All Gamers Global",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 18",
+    "team_a": "Crazy Raccoon",
+    "team_b": "T1",
+    "score_a": 1,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 30",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ZETA DIVISION",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "Jun 01",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 09",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 23",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 17",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 10",
+    "team_a": "Crazy Raccoon",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 11",
+    "team_a": "All Gamers Global",
+    "team_b": "T1",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 31",
+    "team_a": "All Gamers Global",
+    "team_b": "ZETA DIVISION",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 23",
+    "team_a": "All Gamers Global",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 17",
+    "team_a": "All Gamers Global",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 30",
+    "team_a": "All Gamers Global",
+    "team_b": "Poker Face",
+    "score_a": 1,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 10",
+    "team_a": "All Gamers Global",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 16",
+    "team_a": "All Gamers Global",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 24",
+    "team_a": "T1",
+    "team_b": "ZETA DIVISION",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 09",
+    "team_a": "T1",
+    "team_b": "Team Falcons",
+    "score_a": 2,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 31",
+    "team_a": "T1",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 16",
+    "team_a": "T1",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "Jun 01",
+    "team_a": "T1",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 25",
+    "team_a": "T1",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 16",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 18",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 25",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 11",
+    "team_a": "ZETA DIVISION",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 09",
+    "team_a": "ZETA DIVISION",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 24",
+    "team_a": "Team Falcons",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 10",
+    "team_a": "Team Falcons",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 18",
+    "team_a": "Team Falcons",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 30",
+    "team_a": "Team Falcons",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 11",
+    "team_a": "Old Ocean",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 23",
+    "team_a": "Old Ocean",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "Jun 01",
+    "team_a": "Old Ocean",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 31",
+    "team_a": "Poker Face",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 17",
+    "team_a": "Poker Face",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE2",
+    "date": "May 24",
+    "team_a": "ONSIDE GAMING",
+    "team_b": "VEC",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 07",
+    "team_a": "Crazy Raccoon",
+    "team_b": "T1",
+    "score_a": 0,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Aug 29",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 13",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ZETA DIVISION",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Aug 31",
+    "team_a": "Crazy Raccoon",
+    "team_b": "WAE",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 05",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 21",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 14",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 20",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Mir Gaming",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 21",
+    "team_a": "T1",
+    "team_b": "Team Falcons",
+    "score_a": 0,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 19",
+    "team_a": "T1",
+    "team_b": "ZETA DIVISION",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 14",
+    "team_a": "T1",
+    "team_b": "WAE",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 12",
+    "team_a": "T1",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 06",
+    "team_a": "T1",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Aug 30",
+    "team_a": "T1",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Aug 29",
+    "team_a": "T1",
+    "team_b": "Mir Gaming",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 05",
+    "team_a": "Team Falcons",
+    "team_b": "ZETA DIVISION",
+    "score_a": 2,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 12",
+    "team_a": "Team Falcons",
+    "team_b": "WAE",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Aug 30",
+    "team_a": "Team Falcons",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 07",
+    "team_a": "Team Falcons",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 19",
+    "team_a": "Team Falcons",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 13",
+    "team_a": "Team Falcons",
+    "team_b": "Mir Gaming",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 20",
+    "team_a": "ZETA DIVISION",
+    "team_b": "WAE",
+    "score_a": 1,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 14",
+    "team_a": "ZETA DIVISION",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Aug 31",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Aug 29",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 07",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Mir Gaming",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 19",
+    "team_a": "WAE",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 2,
+    "score_b": 3
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Aug 30",
+    "team_a": "WAE",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 05",
+    "team_a": "WAE",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 06",
+    "team_a": "WAE",
+    "team_b": "Mir Gaming",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 20",
+    "team_a": "ONSIDE GAMING",
+    "team_b": "Old Ocean",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 06",
+    "team_a": "ONSIDE GAMING",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Aug 31",
+    "team_a": "ONSIDE GAMING",
+    "team_b": "Mir Gaming",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 13",
+    "team_a": "Old Ocean",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 12",
+    "team_a": "Old Ocean",
+    "team_b": "Mir Gaming",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2025_KR_STAGE3",
+    "date": "Sep 21",
+    "team_a": "Cheeseburger",
+    "team_b": "Mir Gaming",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Mar 20",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Crazy Raccoon",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Mar 22",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 11",
+    "team_a": "ZETA DIVISION",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 17",
+    "team_a": "ZETA DIVISION",
+    "team_b": "T1",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 05",
+    "team_a": "ZETA DIVISION",
+    "team_b": "ZAN Esports",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 03",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 12",
+    "team_a": "ZETA DIVISION",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 18",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 18",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 03",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 10",
+    "team_a": "Crazy Raccoon",
+    "team_b": "T1",
+    "score_a": 2,
+    "score_b": 3
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Mar 21",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ZAN Esports",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 12",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 17",
+    "team_a": "Crazy Raccoon",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 04",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 19",
+    "team_a": "Team Falcons",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 05",
+    "team_a": "Team Falcons",
+    "team_b": "T1",
+    "score_a": 3,
+    "score_b": 1
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 12",
+    "team_a": "Team Falcons",
+    "team_b": "ZAN Esports",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 10",
+    "team_a": "Team Falcons",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 04",
+    "team_a": "Team Falcons",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Mar 21",
+    "team_a": "Team Falcons",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Mar 22",
+    "team_a": "ONSIDE GAMING",
+    "team_b": "T1",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Mar 20",
+    "team_a": "ONSIDE GAMING",
+    "team_b": "ZAN Esports",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 17",
+    "team_a": "ONSIDE GAMING",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 05",
+    "team_a": "ONSIDE GAMING",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 10",
+    "team_a": "ONSIDE GAMING",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 18",
+    "team_a": "T1",
+    "team_b": "ZAN Esports",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 04",
+    "team_a": "T1",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Mar 21",
+    "team_a": "T1",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 11",
+    "team_a": "T1",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 19",
+    "team_a": "ZAN Esports",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 11",
+    "team_a": "ZAN Esports",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 03",
+    "team_a": "ZAN Esports",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Mar 22",
+    "team_a": "Poker Face",
+    "team_b": "New Era",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Mar 20",
+    "team_a": "Poker Face",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "date": "Apr 19",
+    "team_a": "New Era",
+    "team_b": "Cheeseburger",
+    "score_a": 0,
+    "score_b": 3
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 21",
+    "team_a": "Crazy Raccoon",
+    "team_b": "O2 Blast",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 19",
+    "team_a": "Crazy Raccoon",
+    "team_b": "T1",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 28",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ZETA DIVISION",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 05",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 14",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Cheeseburger",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 12",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ZANSIDE GAMING",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 07",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 27",
+    "team_a": "Crazy Raccoon",
+    "team_b": "SuperBad",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 13",
+    "team_a": "O2 Blast",
+    "team_b": "T1",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 12",
+    "team_a": "O2 Blast",
+    "team_b": "ZETA DIVISION",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 19",
+    "team_a": "O2 Blast",
+    "team_b": "Team Falcons",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 26",
+    "team_a": "O2 Blast",
+    "team_b": "Cheeseburger",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 05",
+    "team_a": "O2 Blast",
+    "team_b": "ZANSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 28",
+    "team_a": "O2 Blast",
+    "team_b": "Poker Face",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 07",
+    "team_a": "O2 Blast",
+    "team_b": "SuperBad",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 05",
+    "team_a": "T1",
+    "team_b": "ZETA DIVISION",
+    "score_a": 3,
+    "score_b": 2
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 14",
+    "team_a": "T1",
+    "team_b": "Team Falcons",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 20",
+    "team_a": "T1",
+    "team_b": "Cheeseburger",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 28",
+    "team_a": "T1",
+    "team_b": "ZANSIDE GAMING",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 27",
+    "team_a": "T1",
+    "team_b": "Poker Face",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 06",
+    "team_a": "T1",
+    "team_b": "SuperBad",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 26",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Team Falcons",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 07",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 20",
+    "team_a": "ZETA DIVISION",
+    "team_b": "ZANSIDE GAMING",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 21",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Poker Face",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 13",
+    "team_a": "ZETA DIVISION",
+    "team_b": "SuperBad",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 27",
+    "team_a": "Team Falcons",
+    "team_b": "Cheeseburger",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 06",
+    "team_a": "Team Falcons",
+    "team_b": "ZANSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 13",
+    "team_a": "Team Falcons",
+    "team_b": "Poker Face",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 21",
+    "team_a": "Team Falcons",
+    "team_b": "SuperBad",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 19",
+    "team_a": "Cheeseburger",
+    "team_b": "ZANSIDE GAMING",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 06",
+    "team_a": "Cheeseburger",
+    "team_b": "Poker Face",
+    "score_a": 3,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 12",
+    "team_a": "Cheeseburger",
+    "team_b": "SuperBad",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 14",
+    "team_a": "ZANSIDE GAMING",
+    "team_b": "Poker Face",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 26",
+    "team_a": "ZANSIDE GAMING",
+    "team_b": "SuperBad",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE2",
+    "date": "Jun 20",
+    "team_a": "Poker Face",
+    "team_b": "SuperBad",
+    "score_a": 0,
+    "score_b": 0
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Seeding Decider / LCQ",
+    "date": "",
+    "team_a": "ZETA DIVISION",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 1,
+    "source": "main_page_match_block"
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Seeding Decider / LCQ",
+    "date": "",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 0,
+    "source": "main_page_match_block"
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Seeding Decider / LCQ",
+    "date": "",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Team Falcons",
+    "score_a": 3,
+    "score_b": 1,
+    "source": "main_page_match_block"
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Seeding Decider / LCQ",
+    "date": "",
+    "team_a": "Crazy Raccoon",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0,
+    "source": "main_page_match_block"
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Seeding Decider / LCQ",
+    "date": "",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Crazy Raccoon",
+    "score_a": 3,
+    "score_b": 0,
+    "source": "main_page_match_block"
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Seeding Decider / LCQ",
+    "date": "",
+    "team_a": "Team Falcons",
+    "team_b": "ONSIDE GAMING",
+    "score_a": 3,
+    "score_b": 0,
+    "source": "main_page_match_block"
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Seeding Decider / LCQ",
+    "date": "",
+    "team_a": "Poker Face",
+    "team_b": "Cheeseburger",
+    "score_a": 2,
+    "score_b": 3,
+    "source": "main_page_match_block"
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Seeding Decider / LCQ",
+    "date": "",
+    "team_a": "ZAN Esports",
+    "team_b": "Cheeseburger",
+    "score_a": 3,
+    "score_b": 0,
+    "source": "main_page_match_block"
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Grand Final / Regional Playoffs",
+    "date": "",
+    "team_a": "Team Falcons",
+    "team_b": "ZAN Esports",
+    "score_a": 4,
+    "score_b": 0,
+    "source": "main_page_match_block"
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Grand Final / Regional Playoffs",
+    "date": "",
+    "team_a": "Crazy Raccoon",
+    "team_b": "Team Falcons",
+    "score_a": 1,
+    "score_b": 4,
+    "source": "main_page_match_block"
+  },
+  {
+    "tournament": "2026_KR_STAGE1",
+    "phase": "Grand Final / Regional Playoffs",
+    "date": "",
+    "team_a": "ZETA DIVISION",
+    "team_b": "Team Falcons",
+    "score_a": 4,
+    "score_b": 1,
+    "source": "main_page_match_block"
+  }
+]
