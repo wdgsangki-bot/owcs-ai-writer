@@ -15,6 +15,21 @@ SCHEDULE_GID = "1213279406"
 ROSTER_GID = "1169614443"
 
 
+TEAM_ALIAS = {
+    "Crazy Raccoon": "CR",
+    "ZETA DIVISION": "ZETA",
+    "T1": "T1",
+    "O2 Blast": "O2B",
+    "Team Falcons": "FLC",
+    "Poker Face": "PF",
+    "VARREL": "VARREL",
+    "INSOMNIA": "INS",
+    "FMCL": "FMCL",
+    "FTG": "FTG",
+    "GNS": "GNS",
+}
+
+
 def load_json(path, default=None):
     try:
         with open(path, "r", encoding="utf-8") as f:
@@ -138,47 +153,7 @@ def prepare_roster_df(df):
     df = df.copy()
     df.columns = df.columns.str.strip()
 
-    df = df.rename(columns={
-        "TEAM": "team",
-        "Team": "team",
-        "팀": "team",
-        "PLAYER1": "player1",
-        "Player1": "player1",
-        "선수1": "player1",
-        "PLAYER2": "player2",
-        "Player2": "player2",
-        "선수2": "player2",
-        "PLAYER3": "player3",
-        "Player3": "player3",
-        "선수3": "player3",
-        "PLAYER4": "player4",
-        "Player4": "player4",
-        "선수4": "player4",
-        "PLAYER5": "player5",
-        "Player5": "player5",
-        "선수5": "player5",
-        "SUB1": "sub1",
-        "Sub1": "sub1",
-        "후보1": "sub1",
-        "SUB2": "sub2",
-        "Sub2": "sub2",
-        "후보2": "sub2",
-        "COACH": "coach",
-        "Coach": "coach",
-        "코치": "coach",
-    })
-
-    required_columns = [
-        "team",
-        "player1",
-        "player2",
-        "player3",
-        "player4",
-        "player5",
-        "sub1",
-        "sub2",
-        "coach",
-    ]
+    required_columns = ["season", "team_id", "player_id"]
 
     missing = [col for col in required_columns if col not in df.columns]
     if missing:
@@ -187,7 +162,11 @@ def prepare_roster_df(df):
         return pd.DataFrame()
 
     df = df.dropna(how="all")
-    df = df.dropna(subset=["team"])
+    df = df.dropna(subset=["team_id", "player_id"])
+
+    df["season"] = df["season"].astype(str).str.strip()
+    df["team_id"] = df["team_id"].astype(str).str.strip()
+    df["player_id"] = df["player_id"].astype(str).str.strip()
 
     return df
 
@@ -216,36 +195,31 @@ def get_previous_matches(df, selected_date):
     return df[df["date"] == previous_date].sort_values("match_no")
 
 
-def get_roster_text(roster_df, team):
+def get_roster_text(roster_df, team, season=None):
     if roster_df is None or roster_df.empty:
         return ""
 
-    row = roster_df[roster_df["team"] == team]
+    team_id = TEAM_ALIAS.get(team, team)
 
-    if row.empty:
+    rows = roster_df[roster_df["team_id"] == team_id]
+
+    if season:
+        season_rows = rows[rows["season"] == season]
+        if not season_rows.empty:
+            rows = season_rows
+
+    if rows.empty:
         return ""
 
-    row = row.iloc[0]
+    players = (
+        rows["player_id"]
+        .dropna()
+        .astype(str)
+        .drop_duplicates()
+        .tolist()
+    )
 
-    columns = [
-        "player1",
-        "player2",
-        "player3",
-        "player4",
-        "player5",
-        "sub1",
-        "sub2",
-        "coach",
-    ]
-
-    names = []
-
-    for col in columns:
-        value = row.get(col, "")
-        if pd.notna(value) and str(value).strip():
-            names.append(str(value).strip())
-
-    return " / ".join(names)
+    return " / ".join(players)
 
 
 st.set_page_config(
@@ -533,7 +507,11 @@ if mode == "DAY 대본 생성":
     for m in today_matches:
         for team in [m["team_a"], m["team_b"]]:
             if team and team not in rosters:
-                default_roster = get_roster_text(roster_df, team)
+                default_roster = get_roster_text(
+                    roster_df,
+                    team,
+                    season=tournament_filter,
+                )
 
                 rosters[team] = st.text_area(
                     f"{team} 로스터",
