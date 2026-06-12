@@ -33,9 +33,12 @@ def get_team_names():
     teams = load_json("teams.json", [])
     names = []
 
+    if isinstance(teams, dict):
+        teams = teams.get("teams", [])
+
     for team in teams:
         if isinstance(team, dict):
-            name = team.get("official_name") or team.get("name")
+            name = team.get("official_name") or team.get("name") or team.get("team")
         else:
             name = str(team)
 
