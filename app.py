@@ -177,11 +177,29 @@ def get_roster_text(roster_df, selected_date, team):
 
 
 st.set_page_config(
-    page_title="OWCS AI Writer",
+    page_title="WDG DATA",
     layout="wide",
 )
 
-st.title("OWCS 방송작가 AI")
+st.title("WDG DATA")
+st.caption("Esports Broadcast Intelligence Platform")
+
+with st.sidebar:
+    st.header("WDG DATA")
+    game = st.selectbox(
+        "게임 / 리그",
+        ["OWCS", "VCT", "LCK CL", "THE FINALS"],
+        index=0,
+    )
+
+    if game != "OWCS":
+        st.info("현재는 OWCS 데이터만 연결되어 있습니다.")
+
+    mode = st.radio(
+        "콘텐츠 선택",
+        ["DAY 대본 생성", "브리프 생성"],
+        index=0,
+    )
 
 team_names = get_team_names()
 
@@ -198,44 +216,6 @@ try:
     roster_df = prepare_roster_df(roster_df)
 except Exception:
     roster_df = pd.DataFrame()
-
-
-mode = st.radio(
-    "생성 유형",
-    ["브리프 생성", "DAY 대본 생성"],
-    horizontal=True,
-)
-
-
-if mode == "브리프 생성":
-    st.subheader("매치 브리프 생성")
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        team_a = st.selectbox("팀 A", team_names, index=0)
-
-    with col2:
-        team_b = st.selectbox("팀 B", team_names, index=1)
-
-    if st.button("브리프 생성"):
-        if team_a == team_b:
-            st.warning("서로 다른 팀을 선택해주세요.")
-        else:
-            briefing = write_briefing(team_a, team_b)
-
-            st.text_area(
-                "방송 브리프",
-                briefing,
-                height=700,
-            )
-
-            st.download_button(
-                "TXT 다운로드",
-                data=briefing,
-                file_name=f"{team_a}_vs_{team_b}_briefing.txt",
-                mime="text/plain",
-            )
 
 
 if mode == "DAY 대본 생성":
@@ -452,7 +432,7 @@ if mode == "DAY 대본 생성":
 
     for m in today_matches:
         for team in [m["team_a"], m["team_b"]]:
-            if team not in rosters:
+            if team and team not in rosters:
                 default_roster = get_roster_text(roster_df, selected_date, team)
 
                 rosters[team] = st.text_area(
@@ -464,7 +444,7 @@ if mode == "DAY 대본 생성":
 
     st.divider()
 
-    if st.button("전체 DAY 대본 생성"):
+    if st.button("전체 DAY 대본 생성", type="primary"):
         script = generate_day_script(
             language=language,
             event_name=event_name,
@@ -496,3 +476,34 @@ if mode == "DAY 대본 생성":
             file_name=f"{event_name}_{day_label}_{language}_script.txt",
             mime="text/plain",
         )
+
+
+if mode == "브리프 생성":
+    st.subheader("브로드캐스트 브리프")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        team_a = st.selectbox("팀 A", team_names, index=0)
+
+    with col2:
+        team_b = st.selectbox("팀 B", team_names, index=1)
+
+    if st.button("브리프 생성", type="primary"):
+        if team_a == team_b:
+            st.warning("서로 다른 팀을 선택해주세요.")
+        else:
+            briefing = write_briefing(team_a, team_b)
+
+            st.text_area(
+                "방송 브리프",
+                briefing,
+                height=700,
+            )
+
+            st.download_button(
+                "TXT 다운로드",
+                data=briefing,
+                file_name=f"{team_a}_vs_{team_b}_briefing.txt",
+                mime="text/plain",
+            )
