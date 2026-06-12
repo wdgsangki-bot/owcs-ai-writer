@@ -36,6 +36,15 @@ def make_match(match_no, time, team_a, team_b):
     }
 
 
+def make_result(team_a, score_a, score_b, team_b):
+    return {
+        "team_a": team_a,
+        "score_a": score_a,
+        "score_b": score_b,
+        "team_b": team_b,
+    }
+
+
 st.set_page_config(
     page_title="OWCS AI Writer",
     layout="wide",
@@ -86,6 +95,11 @@ if mode == "브리프 생성":
 if mode == "DAY 대본 생성":
     st.subheader("DAY 전체 대본 생성")
 
+    language = st.selectbox(
+        "언어",
+        ["한국어", "일본어"],
+    )
+
     col1, col2, col3 = st.columns(3)
 
     with col1:
@@ -110,6 +124,12 @@ if mode == "DAY 대본 생성":
 
     st.subheader("지난 경기 결과")
 
+    h1, h2, h3, h4 = st.columns([3, 1, 1, 3])
+    h1.markdown("**팀 A**")
+    h2.markdown("**A 점수**")
+    h3.markdown("**B 점수**")
+    h4.markdown("**팀 B**")
+
     previous_results = []
 
     for i in range(1, 4):
@@ -119,25 +139,29 @@ if mode == "DAY 대본 생성":
             prev_team_a = st.selectbox(
                 f"지난 경기 {i} 팀 A",
                 team_names,
+                index=min(i - 1, len(team_names) - 1),
                 key=f"prev_team_a_{i}",
+                label_visibility="collapsed",
             )
 
         with c2:
             prev_score_a = st.number_input(
-                f"A 점수 {i}",
+                f"지난 경기 {i} A 점수",
                 min_value=0,
                 max_value=10,
                 value=3,
                 key=f"prev_score_a_{i}",
+                label_visibility="collapsed",
             )
 
         with c3:
             prev_score_b = st.number_input(
-                f"B 점수 {i}",
+                f"지난 경기 {i} B 점수",
                 min_value=0,
                 max_value=10,
                 value=0,
                 key=f"prev_score_b_{i}",
+                label_visibility="collapsed",
             )
 
         with c4:
@@ -146,15 +170,11 @@ if mode == "DAY 대본 생성":
                 team_names,
                 index=min(i, len(team_names) - 1),
                 key=f"prev_team_b_{i}",
+                label_visibility="collapsed",
             )
 
         previous_results.append(
-            {
-                "team_a": prev_team_a,
-                "score_a": prev_score_a,
-                "score_b": prev_score_b,
-                "team_b": prev_team_b,
-            }
+            make_result(prev_team_a, prev_score_a, prev_score_b, prev_team_b)
         )
 
     st.divider()
@@ -169,10 +189,20 @@ if mode == "DAY 대본 생성":
     standings = get_standings(tournament_filter)
 
     if standings:
+        h1, h2, h3, h4, h5 = st.columns([1, 4, 1, 1, 1])
+        h1.markdown("**순위**")
+        h2.markdown("**팀**")
+        h3.markdown("**W**")
+        h4.markdown("**L**")
+        h5.markdown("**+/-**")
+
         for s in standings:
-            st.write(
-                f"{s['rank']}위 {s['team']} {s['w']}승 {s['l']}패 {s['diff']}"
-            )
+            c1, c2, c3, c4, c5 = st.columns([1, 4, 1, 1, 1])
+            c1.write(s["rank"])
+            c2.write(s["team"])
+            c3.write(s["w"])
+            c4.write(s["l"])
+            c5.write(s["diff"])
     else:
         st.warning("해당 대회 기준 스탠딩 데이터가 없습니다.")
 
@@ -180,10 +210,16 @@ if mode == "DAY 대본 생성":
 
     st.subheader("오늘의 매치업")
 
+    h1, h2, h3, h4 = st.columns([0.8, 1.2, 3, 3])
+    h1.markdown("**번호**")
+    h2.markdown("**시간**")
+    h3.markdown("**팀 A**")
+    h4.markdown("**팀 B**")
+
     today_matches = []
 
     for i in range(1, 4):
-        c1, c2, c3, c4 = st.columns([1, 2, 4, 4])
+        c1, c2, c3, c4 = st.columns([0.8, 1.2, 3, 3])
 
         with c1:
             match_no = st.number_input(
@@ -192,6 +228,7 @@ if mode == "DAY 대본 생성":
                 max_value=100,
                 value=i,
                 key=f"today_match_no_{i}",
+                label_visibility="collapsed",
             )
 
         with c2:
@@ -199,6 +236,7 @@ if mode == "DAY 대본 생성":
                 f"MATCH {i} 시간",
                 f"{15 + (i - 1) * 2}:00",
                 key=f"today_match_time_{i}",
+                label_visibility="collapsed",
             )
 
         with c3:
@@ -207,6 +245,7 @@ if mode == "DAY 대본 생성":
                 team_names,
                 index=min(i - 1, len(team_names) - 1),
                 key=f"today_team_a_{i}",
+                label_visibility="collapsed",
             )
 
         with c4:
@@ -215,6 +254,7 @@ if mode == "DAY 대본 생성":
                 team_names,
                 index=min(i, len(team_names) - 1),
                 key=f"today_team_b_{i}",
+                label_visibility="collapsed",
             )
 
         today_matches.append(
@@ -225,10 +265,16 @@ if mode == "DAY 대본 생성":
 
     st.subheader("다음 매치업")
 
+    h1, h2, h3, h4 = st.columns([0.8, 1.2, 3, 3])
+    h1.markdown("**번호**")
+    h2.markdown("**시간**")
+    h3.markdown("**팀 A**")
+    h4.markdown("**팀 B**")
+
     next_matches = []
 
     for i in range(1, 4):
-        c1, c2, c3, c4 = st.columns([1, 2, 4, 4])
+        c1, c2, c3, c4 = st.columns([0.8, 1.2, 3, 3])
 
         with c1:
             match_no = st.number_input(
@@ -237,6 +283,7 @@ if mode == "DAY 대본 생성":
                 max_value=100,
                 value=i + 3,
                 key=f"next_match_no_{i}",
+                label_visibility="collapsed",
             )
 
         with c2:
@@ -244,6 +291,7 @@ if mode == "DAY 대본 생성":
                 f"NEXT MATCH {i} 시간",
                 f"{15 + (i - 1) * 2}:00",
                 key=f"next_match_time_{i}",
+                label_visibility="collapsed",
             )
 
         with c3:
@@ -252,6 +300,7 @@ if mode == "DAY 대본 생성":
                 team_names,
                 index=min(i + 1, len(team_names) - 1),
                 key=f"next_team_a_{i}",
+                label_visibility="collapsed",
             )
 
         with c4:
@@ -260,6 +309,7 @@ if mode == "DAY 대본 생성":
                 team_names,
                 index=min(i + 2, len(team_names) - 1),
                 key=f"next_team_b_{i}",
+                label_visibility="collapsed",
             )
 
         next_matches.append(
@@ -270,6 +320,7 @@ if mode == "DAY 대본 생성":
 
     if st.button("전체 DAY 대본 생성"):
         script = generate_day_script(
+            language=language,
             event_name=event_name,
             day_label=day_label,
             date_text=date_text,
@@ -291,6 +342,6 @@ if mode == "DAY 대본 생성":
         st.download_button(
             "TXT 다운로드",
             data=script,
-            file_name=f"{event_name}_{day_label}_script.txt",
+            file_name=f"{event_name}_{day_label}_{language}_script.txt",
             mime="text/plain",
         )
